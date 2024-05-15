@@ -3,7 +3,7 @@
 
 # RJDemetra <img src="man/figures/logo.png" align="right" alt="" />
 
-[![R-CMD-check](https://github.com/jdemetra/rjdemetra/workflows/R-CMD-check/badge.svg)](https://github.com/jdemetra/rjdemetra/actions)
+[![R-CMD-check](https://github.com/rjdverse/rjdemetra/workflows/R-CMD-check/badge.svg)](https://github.com/rjdverse/rjdemetra/actions)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/RJDemetra)](https://cran.r-project.org/package=RJDemetra)
 [![CRAN last
 release](http://www.r-pkg.org/badges/last-release/RJDemetra)](https://cran.r-project.org/package=RJDemetra)
@@ -37,7 +37,7 @@ RJDemetra offers full access to all options and outputs of JDemetra+.
 
 RJDemetra relies on the
 [rJava](https://CRAN.R-project.org/package=rJava) package and Java SE
-version between 8 and 15 is required.
+version 8 or higher is required.
 
 ``` r
 # Install release version from CRAN
@@ -45,11 +45,11 @@ install.packages("RJDemetra")
 
 # Install development version from GitHub
 # install.packages("devtools")
-devtools::install_github("jdemetra/rjdemetra")
+devtools::install_github("rjdverse/rjdemetra")
 ```
 
 If you have troubles with the installation, check the [installation
-manual](https://github.com/jdemetra/rjdemetra/wiki/Installation-manual).
+manual](https://github.com/rjdverse/rjdemetra/wiki/Installation-manual).
 
 ## Basic example
 
